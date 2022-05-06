@@ -1,0 +1,5 @@
+featurize:
+  ngrams: 2
+train:
+  batch_size: 128
+  hidden_units: 64

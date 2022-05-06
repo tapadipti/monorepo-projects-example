@@ -1,0 +1,11 @@
+stages:
+  featurize:
+    cmd: echo 1
+    params:
+    - featurize.ngrams
+  train:
+    cmd: echo 1
+    params:
+    - train.batch_size
+    - train.hidden_units
+
