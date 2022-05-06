@@ -1,0 +1,11 @@
+stages:
+  featurize:
+    cmd: echo 1
+    params:
+    - featurize.max_features
+  train:
+    cmd: echo 1
+    params:
+    - train.dropout
+    - train.lr
+

@@ -1,0 +1,5 @@
+featurize:
+  max_features: 3000
+train:
+  dropout: 0.40
+  lr: 0.01
